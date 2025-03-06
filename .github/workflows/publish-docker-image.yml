@@ -34,5 +34,5 @@ jobs:
           context: .
           file: ./.docker/Dockerfile-alpine
           push: true
-          tags: mekkaunt/hydra:${{ github.run_id }}
+          tags: mekkaunt/hydra:v${{ github.run_id }}
           labels: ${{ steps.meta.outputs.labels }}
